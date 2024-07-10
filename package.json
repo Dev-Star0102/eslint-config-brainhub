@@ -1,0 +1,50 @@
+{
+  "name": "eslint-config-brainhub",
+  "version": "1.14.0",
+  "description": "ESLint shareable config for the Brainhub style",
+  "license": "Apache-2.0",
+  "repository": "adam-golab/eslint-config-brainhub",
+  "author": "Adam Gołąb",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "brainhub",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": ">=9.0.0",
+    "eslint": ">=5.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.21.3"
+  }
+}
